@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EmpleadosComponent } from './empleados/empleados.component';
 import { EmpleadoComponent } from './empleado/empleado.component';
+import { HorarioComponent } from './horario/horario.component';
 
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
       EmpleadosComponent,
-      EmpleadoComponent
+      EmpleadoComponent,
+      HorarioComponent
    ],
   imports: [
     BrowserModule,
