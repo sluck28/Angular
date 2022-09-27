@@ -1,31 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
 </head>
+
 <body>
-<header>
-   <table border="1">
-      <td>
-         <tr>1</tr>
-         <tr>2</tr>
-      </td>
-   </table>
-</header>   
-<span style="color: red;">{{ title }}Aqui estaremos aprendiendo Angular</span>
-<br>
-<!--Aqui se mandan a llamar nuestros componentes con las llaves-->
-<span>Saludo:{{saludo}} </span>
-<br>
-<!--De esta manera se manda a llamar nuestro componente creado -->
-<app-empleados>
-     </app-empleados>
+        <!--Para crear un  menu de navegacion-->
+        <app-menu_navegacion></app-menu_navegacion>
+
+
+        <!--Aqui se mandan a llamar nuestros componentes con las llaves-->
+
+
+        <!--De esta manera se manda a llamar nuestro componente creado -->
+        <app-empleados>
+        </app-empleados>
+        <app-horario></app-horario>
+
+
         <!-- para crear un componente em terminal ng generate component empleado-->
 </body>
+
 </html>
-
-
-

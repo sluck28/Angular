@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { EmpleadosComponent } from './empleados/empleados.component';
 import { EmpleadoComponent } from './empleado/empleado.component';
 import { HorarioComponent } from './horario/horario.component';
+import { Menu_navegacionComponent } from './menu_navegacion/menu_navegacion.component';
 
 @NgModule({
-  declarations: [		
+  declarations: [			
     AppComponent,
       EmpleadosComponent,
       EmpleadoComponent,
-      HorarioComponent
+      HorarioComponent,
+      Menu_navegacionComponent
    ],
   imports: [
     BrowserModule,
